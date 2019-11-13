@@ -1,4 +1,6 @@
 # Assignment-5
 
-DF <- read_csv("Downloads/CPIAUCSL.csv")
-data.table::fread("Downloads/CPIAUCSL.csv")
+DF <- "Downloads/CPIAUCSL.csv"
+DF <- data.table::fread(DF)
+DF
+summary(DF)
